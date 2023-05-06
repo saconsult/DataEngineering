@@ -32,7 +32,7 @@
 
 # COMMAND ----------
 
-# MAGIC %md ## Multiple Interfaces
+# MAGIC %md ## Multiple Interface
 # MAGIC Spark SQL is a module for structured data processing with multiple interfaces.
 # MAGIC
 # MAGIC We can interact with Spark SQL in two ways:
@@ -45,6 +45,12 @@
 # MAGIC **Method 1: Executing SQL queries**
 # MAGIC
 # MAGIC This is a basic SQL query.
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC
+# MAGIC select "Last Name"
 
 # COMMAND ----------
 
